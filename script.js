@@ -39,9 +39,9 @@ projects.forEach(p => {
     <a href="${p.link}" target="_blank">
       <h3>${p.title}</h3>
     </a>
-    <p><b>Problem:</b> ${p.problem}</p>
-    <p><b>Tech:</b> ${p.stack}</p>
-    <p><b>Reflection:</b> ${p.reflection}</p>
+    <p><b></b> ${p.problem}</p>
+    <p><b><br></b> ${p.stack}</p>
+    <p><b><br></b> ${p.reflection}</p>
   `;
 
   container.appendChild(card);
